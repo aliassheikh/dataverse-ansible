@@ -20,7 +20,7 @@
   ansible.builtin.pip:
     name:
       - docker-compose
-      - python3-requests==2.31.0
+      - requests==2.31.0
 
 - name: ensure /etc/docker exists
   ansible.builtin.file:
