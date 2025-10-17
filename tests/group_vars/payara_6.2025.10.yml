@@ -142,6 +142,7 @@ dataverse:
     user: dataverse
     group: dataverse
     domain: domain1
+    listen_address: 127.0.0.1
     logformat: ulf
     adminuser: admin
     adminpass: notPr0d
