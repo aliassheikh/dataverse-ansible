@@ -243,7 +243,8 @@ dataverse:
   service_email: noreply@dataverse.yourinstitution.edu
   smtp: localhost
   solr:
-    download_url: https://archive.apache.org/dist/solr/solr/9.8.0/solr-9.8.0.tgz
+    #download_url: https://archive.apache.org/dist/solr/solr/9.8.0/solr-9.8.0.tgz
+    download_url: https://mirrors.ibiblio.org/dataverse_artifacts/solr/solr-9.8.0.tgz
     group: solr
     root: /usr/local/solr
     user: solr
